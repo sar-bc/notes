@@ -247,7 +247,7 @@ class WomenHome(DataMixin, ListView):
     paginate_by = 3
 ```
 Затем, в шаблоне index.html пропишем содержимое этого блока следующим образом:
-```html
+```python
 <nav class="list-pages">
     <ul>
         {% for p in paginator.page_range %}
