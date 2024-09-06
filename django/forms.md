@@ -4,7 +4,8 @@ from django import forms
 from .models import *
 
 # форма с моделью
-
+```markdown
+```python
 class AddPostForm(forms.ModelForm):
     class Meta:
         model = Blog
@@ -18,7 +19,8 @@ class AddPostForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.fields['cat'].empty_label = "Категория не выбрана"
-
+```
+```
 # форма без модели
 class ContactForm(forms.Form):
     name = forms.CharField(label='Имя', max_length=255)
