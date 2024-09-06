@@ -4,7 +4,7 @@ from django import forms
 from .models import *
 
 # форма с моделью
-`{python} {
+
 class AddPostForm(forms.ModelForm):
     class Meta:
         model = Blog
@@ -25,4 +25,4 @@ class ContactForm(forms.Form):
     email = forms.EmailField(label='Email')
     content = forms.CharField(label='Сообщение', widget=forms.Textarea(attrs={'cols': 60, 'rows': 7}))
     captcha = CaptchaField()
-}`
+
