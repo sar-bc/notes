@@ -1,5 +1,6 @@
 файл models.py
 ================================
+```python
 from django.db import models
 from django.urls import reverse
 
@@ -39,3 +40,4 @@ class Category(models.Model):
     class Meta:
         verbose_name = "категорию"
         verbose_name_plural = 'категории'
+```
