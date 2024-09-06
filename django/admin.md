@@ -1,6 +1,6 @@
 Файл admin.py
 ====================
-```
+```python
 from django.contrib import admin
 from .models import Order, CommentCrm
 from django.utils.safestring import mark_safe   импорт mark_safe (позваляет загрузить пользовательский тэг)
