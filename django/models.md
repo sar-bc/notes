@@ -41,3 +41,15 @@ class Category(models.Model):
         verbose_name = "категорию"
         verbose_name_plural = 'категории'
 ```
+Привязка таблиц:
+- один ко многим (ManytoOne) ForeignKey
+- многие ко многим (ManytoMany) ManyToManyField
+- один к одному (OnetoOne) OneToOneField
+Класс принимает два обязательных аргумента
+1. ссылка или строка класса модели
+2. on_delete
+опция on_delete="models.CASCADE" - если пользователь будет удален, то удаляется все его записи.
+опция on_delete="models.PROTECT" - запрещает удалять пользователя, пока у него есть записи
+опция on_delete="models.SET_NULL" - задачи остануться в базе при удалении пользователя, но значение в поле измениться на NULL
+опция on_delete="models.SET_DEFAULT" - задачи остануться в базе, при удалении пользователя, по значению в поле измениться на значение по умолчанию
+  
