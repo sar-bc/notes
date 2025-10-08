@@ -1,0 +1,10 @@
+
+https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+https://marketplace.visualstudio.com/items?itemName=docker.docker
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
+https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs
+https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path
+https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ru
